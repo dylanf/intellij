@@ -1,0 +1,20 @@
+<templateSet group="Dylan">
+  <template name="desc" value="describe('$DESCRIBE$', function() {&#10;&#10;    it('$IT$', function() {&#10;   &#10;         $END$;&#10;    &#10;    });&#10;&#10;});" description="Dylans Jasmine Describe" toReformat="false" toShortenFQNames="true">
+    <variable name="DESCRIBE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it('$IT$', function() {&#10;   &#10;    $END$;&#10;    &#10;});&#10;" description="Dylans Jasmine It" toReformat="false" toShortenFQNames="true">
+    <variable name="IT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="bef" value="beforeEach(function() {&#10;   &#10;    $END$;&#10;    &#10;});" description="Dylans Jasmine beforeEach" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
