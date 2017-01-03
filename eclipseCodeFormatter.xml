@@ -1,0 +1,17 @@
+<application>
+  <component name="EclipseCodeFormatterSettings">
+    <option name="settingsList">
+      <list>
+        <Settings>
+          <option name="defaultSettings" value="true" />
+          <option name="formatter" value="ECLIPSE" />
+          <option name="id" value="1479916579725" />
+          <option name="importOrder" value="java;javax;org;com;junit;*" />
+          <option name="name" value="default" />
+          <option name="pathToConfigFileJava" value="$USER_HOME$/Downloads/gs-code-formatter-with-enumupdates.xml" />
+          <option name="selectedJavaProfile" value="Spring IDE" />
+        </Settings>
+      </list>
+    </option>
+  </component>
+</application>
