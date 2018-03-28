@@ -1,6 +1,17 @@
-<code_scheme name="transformation copy">
+<code_scheme name="transformation copy" version="173">
   <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
   <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+  <JavaCodeStyleSettings>
+    <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+    <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="100" />
+  </JavaCodeStyleSettings>
+  <JetCodeStyleSettings>
+    <option name="PACKAGES_TO_USE_STAR_IMPORTS">
+      <value>
+        <package name="kotlinx.android.synthetic" withSubpackages="true" static="false" />
+      </value>
+    </option>
+  </JetCodeStyleSettings>
   <TypeScriptCodeStyleSettings>
     <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
